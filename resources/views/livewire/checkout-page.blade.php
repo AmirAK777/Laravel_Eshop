@@ -3,7 +3,7 @@
         <div class="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:items-start">
             <div class="px-6 py-8 space-y-4 bg-white border border-gray-100 lg:sticky lg:top-8 rounded-xl lg:order-last">
                 <h3 class="font-medium">
-                    Order Summary
+                {{ __('messages.order_summary') }}
                 </h3>
 
                 <div class="flow-root">
@@ -32,7 +32,8 @@
                     <dl class="-my-4 text-sm divide-y divide-gray-100">
                         <div class="flex flex-wrap py-4">
                             <dt class="w-1/2 font-medium">
-                                Sub Total
+                            {{ __('messages.sub_total') }}
+
                             </dt>
 
                             <dd class="w-1/2 text-right">
@@ -66,7 +67,7 @@
 
                         <div class="flex flex-wrap py-4">
                             <dt class="w-1/2 font-medium">
-                                Total
+                            {{ __('messages.total') }}
                             </dt>
 
                             <dd class="w-1/2 text-right">

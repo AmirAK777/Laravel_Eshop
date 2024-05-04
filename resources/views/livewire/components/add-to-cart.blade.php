@@ -17,7 +17,7 @@
         <button type="submit"
                 class="w-full px-6 py-4 text-sm font-medium text-center text-white bg-indigo-600 rounded-lg hover:bg-indigo-700"
                 wire:click.prevent="addToCart">
-            Add to Cart
+                {{ __('messages.add_to_cart') }}
         </button>
     </div>
 

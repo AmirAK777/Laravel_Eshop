@@ -15,7 +15,7 @@
                 ])
                         type="button"
                         wire:click.prevent="$set('paymentType', 'card')">
-                    Pay by card
+                    {{ __('messages.pay_by_card') }}
                 </button>
 
                 <button @class([
