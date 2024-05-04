@@ -25,4 +25,6 @@ return [
         'billing' => 'Billing',
     ],
     'pay_by_card' => 'Pay by card',
+    'quantity' => 'Quantity',
+
 ];

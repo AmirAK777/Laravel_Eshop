@@ -25,6 +25,7 @@ return [
         'billing' => 'Facturation',
     ],
     'pay_by_card' => 'Payer par carte',
+    'quantity' => 'Quantité',
 
 
 ];
